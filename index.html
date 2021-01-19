@@ -4,11 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/12bool.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>Document</title>
+  <title>Motivation</title>
 </head>
 <body>
-  
+    <!-- creiamo un contenitore per istanza vue -->
+    <div id="root">
+    <!-- iniziamo analizzando le macro-aree del progetto: -->
+    <!-- abbiamo un header con navbar e poi una sezione jumbotron con all'interno due sezioni -->
+    <header>
+      <div class="container sfondo">
+
+        <nav>
+          <!-- all'interno genereremo tutto tramite vue -->
+          <div class="row">
+
+            <div class="col-lg-2 col-offset-lg-2">logo</div>
+            <div class="col-lg-4">link</div>
+            <div class="col-lg-2">icone fontawesome</div>
+
+          </div>
+        </nav>
+        <div class="jumbotron">
+          <div class="row">
+
+            <div class="col-lg-4 col-offset-lg-2 ">
+              <h3 class="small_title">i'm wingman</h3>
+              <h1 class="title">peace on earth a wonderful wish but no way</h1>
+              <p class="explain">Success isn't overnight.It's when everyday you get a little better then the day before.It all adds up.</p>
+              <button class="get_start">Get started for free</button>
+
+            </div>
+
+            <div class="col-lg-4 rightpic">
+              <img class="style_woman" src="./assets/img/home-movation-shape-face-300x267.png" alt="img stilizzata di donna">
+              <img class="blonde_man" src="./assets/img/home-movation-hero-image-246x300.png" alt="ragazzo">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   <script src="assets/js/main.js" charset="utf-8"></script>
 </body>

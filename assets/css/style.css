@@ -1,1 +1,48 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sfondo{
+  /* height: 200px; */
+  background-color: #ebe9ed;
+  background-image: url(../img/background-pattern-wavify.png);
+}
+nav{
+  border: 2px solid black;
+  height: 80px;
+  margin-bottom: 20px;
+}
+.rightpic{
+  position: relative;
+}
+.style_woman{
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.blonde_man{
+  position: absolute;
+}
+.small_title{
+  margin-top: 60px;
+  text-transform: uppercase;
+}
+.title{
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+.explain{
+  width: 400px;
+  margin-bottom: 30px;
+}
+.get_start{
+  padding: 15px 65px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #20ac97;
+  color: #ffffff;
+  
+}
