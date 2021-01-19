@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* utility class */
+/* .bd{
+  border: 1px solid black;
+} */
 .sfondo{
   /* height: 200px; */
   background-color: #ebe9ed;
@@ -25,22 +30,23 @@ nav{
 } */
 .stylewoman{
   background-image: url(../img/home-movation-shape-face-600x534.png);
-  background-position-x: 0px;
-  background-position-y: 130px;
-  height: 500px;
-  width: 600px;
-  background-repeat: no-repeat;
+  background-position-x: 72px;
+    background-position-y: 203px;
+    height: 685px;
+    width: 680px;
+    background-repeat: no-repeat;
 }
 
 .blonde_man{
-  width: 500px;
-  position: absolute;
-  left: -22px;
-  top: 0px;
-  height: 500px;
+  width: 523px;
+    position: absolute;
+    left: 48px;
+    top: 30px;
+    height: 653px;
 }
+
 .small_title{
-  margin-top: 100px;
+  margin-top: 130px;
   text-transform: uppercase;
 }
 .title{
