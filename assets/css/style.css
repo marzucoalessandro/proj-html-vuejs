@@ -8,6 +8,12 @@
 /* .bd{
   border: 1px solid black;
 } */
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+/* *****************header class***************** */
 .sfondo{
   /* height: 200px; */
   background-color: #ebe9ed;
@@ -24,10 +30,7 @@ nav{
 .leftpic{
   margin-bottom: 100px;
 }
-/* .style_woman{
-  margin-top: 150px;
-  margin-left: 100px;
-} */
+
 .stylewoman{
   background-image: url(../img/home-movation-shape-face-600x534.png);
   background-position-x: 72px;
@@ -50,18 +53,20 @@ nav{
   text-transform: uppercase;
 }
 .title{
-  width: 400px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 3rem;
-  text-transform: capitalize;
+  width: 490px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    text-transform: capitalize;
 }
 .explain{
-  width: 400px;
-  margin-bottom: 40px;
+  font-size: 1.3rem;
+
+    width: 520px;
+    margin-bottom: 40px;
 }
 .get_start{
-  padding: 15px 45px;
+  padding: 15px 85px;
   border-radius: 5px;
   border: 0px;
   background-color: #20ac97;
@@ -72,3 +77,30 @@ nav{
 .small_arrow{
   padding-left: 10px;
 }
+/* *****************fine header class***************** */
+
+/* ****************main class****************** */
+/* *****************section one***************** */
+.one{
+  margin-top: 100px;
+}
+.number{
+  font-size: 3rem;
+  color: #20ac97;
+  margin-bottom: 10px;
+}
+.num_explain{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.card_1{
+  width: 400px;
+  border-left: 1px dashed #20ac97;
+  text-align: center;
+  padding: 10px;
+}
+.border{
+  border-right: 1px dashed #20ac97;
+}
+/* *******************fine section one ****************** */
