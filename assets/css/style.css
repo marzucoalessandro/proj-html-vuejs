@@ -2,13 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 /* utility class */
 /* .bd{
   border: 1px solid black;
 } */
-
+.w_marine{
+  color: #20ac97;
+}
 .flex{
   display: flex;
   justify-content: space-between;
@@ -33,18 +36,18 @@ nav{
 
 .stylewoman{
   background-image: url(../img/home-movation-shape-face-600x534.png);
-  background-position-x: 72px;
-    background-position-y: 203px;
-    height: 685px;
-    width: 680px;
+  background-position-x: 60px;
+    background-position-y: 214px;
+    height: 686px;
+    width: 700px;
     background-repeat: no-repeat;
 }
 
 .blonde_man{
-  width: 523px;
+  width: 600px;
     position: absolute;
-    left: 48px;
-    top: 30px;
+    left: -22px;
+    top: 44px;
     height: 653px;
 }
 
@@ -66,7 +69,7 @@ nav{
     margin-bottom: 40px;
 }
 .get_start{
-  padding: 15px 85px;
+  padding: 25px 85px;
   border-radius: 5px;
   border: 0px;
   background-color: #20ac97;
@@ -83,6 +86,7 @@ nav{
 /* *****************section one***************** */
 .one{
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .number{
   font-size: 3rem;
@@ -104,3 +108,86 @@ nav{
   border-right: 1px dashed #20ac97;
 }
 /* *******************fine section one ****************** */
+
+/* ****************** section two ************************** */
+.two{
+  margin-bottom: 100px;
+}
+.how_to{
+  margin-top: 40px;
+  font-size: 3.5rem;
+  width: 540px;
+  text-transform: capitalize;
+  color: #232a33;
+}
+.explain_1{
+  padding-top: 70px;
+  padding-bottom: 20px;
+  font-size: 1.65rem;
+  color: #232a33;
+}
+
+.explain_2{
+  font-size: 1.45rem;
+  color: #9aa2a6;
+}
+/* ****************** section 3 ******************* */
+.three{
+  margin-bottom: 120px;
+}
+.main_cont{
+  height: 500px;
+}
+.video_poster{
+  width: 930px;
+  height: 500px;
+  border-radius: 5px;
+}
+.relative{
+  position: relative;
+}
+.icon{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.dreams{
+  padding: 70px;
+}
+.every{
+  font-size: 2.5rem;
+  margin-bottom: 70px;
+  color: #232a33;
+}
+.wave{
+  width: 50px;
+  padding-bottom: 20px;
+}
+.kaixa{
+  font-size: 2rem;
+  color:  #232a33;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.wing{
+  text-transform: uppercase;
+}
+/* *************fine section three *************************** */
+
+/* **************************section four ******************** */
+.four{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.begin{
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  font-size: 1.8rem;
+}
+.courses{
+  font-size: 6rem;
+  text-transform: capitalize;
+}
+/* *********************fine section four ******************** */
+/* *************************section five *********************** */
