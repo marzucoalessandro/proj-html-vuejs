@@ -13,6 +13,12 @@
 .w_marine{
   color: #20ac97;
 }
+.blu_oltrem{
+  color: #044680;
+}
+.text_grey{
+  color: #6b6c6c;
+}
 .flex{
   display: flex;
   justify-content: space-between;
@@ -132,6 +138,7 @@ nav{
 .how_to{
   margin-top: 40px;
   font-size: 3.5rem;
+  font-weight: 500;
   width: 540px;
   text-transform: capitalize;
   color: #232a33;
@@ -147,7 +154,7 @@ nav{
 
 .explain_2{
   font-size: 1.45rem;
-  color: #9aa2a6;
+  color: #6b6c6c;
   line-height: 2rem
 }
 /* ****************** section 3 ******************* */
@@ -185,12 +192,13 @@ nav{
 }
 .kaixa{
   font-size: 2rem;
-  color:  #232a33;
+  color: #044689;
   font-weight: bold;
   padding-bottom: 10px;
 }
 .wing{
   text-transform: uppercase;
+  font-size: 1.3rem
 }
 /* *************fine section three *************************** */
 
@@ -206,6 +214,7 @@ nav{
 }
 .courses{
   font-size: 5rem;
+  color: #232a33;
   text-transform: capitalize;
 }
 /* *********************fine section four ******************** */
@@ -232,6 +241,7 @@ nav{
   width: 380px;
   padding-bottom: 30px;
   font-weight: bold;
+  color: #044689;
 }
 .first_span{
   margin-right: 20px;
@@ -277,6 +287,7 @@ nav{
 .list_1 li{
   font-size: 1.6rem;
   line-height: 2.5rem;
+  color: #6b6c6c;
 }
 .button_3{
   padding: 20px 80px;
@@ -374,12 +385,37 @@ nav{
 .freelancer{
   margin-top: 20px;
   font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.circle{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100px;
+
+}
+.pointer_up{
+  padding-top: 27px;
+  padding-left: 44px;
+}
+.pointer_down{
+  padding-left: 44px;
+}
+.counter{
+  display: block;
+  padding-left: 38px;
+  font-size: 1.1rem;
 }
 /* *****************fine section 8 ******************* */
 /* ********************section nine ****************** */
 .blog{
   text-transform: uppercase;
   margin-bottom: 20px;
+  font-size: 1.3rem;
 }
 .articles{
   font-size: 3.5rem;
@@ -406,10 +442,15 @@ nav{
 .second_p{
   padding-right: 20px;
   font-size: 1.4rem;
+  color: #6b6c6c;
 }
 .date{
   font-weight: bold;
+  color: #6b6c6c;
+  text-transform: capitalize;
 }
+
+
 .last{
   margin-top: 50px;
   margin-bottom: 150px;
