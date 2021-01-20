@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
+
+
 
 /* **********************utility class********************* */
 /* .bd{
@@ -293,4 +294,43 @@ nav{
 .seven{
   margin-bottom: 150px;
   margin-top: 50px;
+}
+/* ********************** fine section seven ****************** */
+/* *********************** section eight ************************ */
+.container_2{
+  max-width: 2200px;
+  margin: 0 auto;
+}
+.mina{
+  width: 1100;
+  height: 700px;
+  text-align: center;
+  padding: 120px 120px;
+}
+.phone_man{
+  width: 1100px;
+  height: 700px;
+}
+.real{
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.explain_3{
+  font-size: 2rem;
+  padding: 0 150px
+}
+.woman{
+  width: 100px;
+  margin-top: 65px;
+  border-radius: 100%
+}
+.hollace{
+  margin-top: 30px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.freelancer{
+  margin-top: 20px;
+  font-size: 1.2rem;
 }
