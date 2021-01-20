@@ -300,6 +300,7 @@ nav{
 .container_2{
   max-width: 2200px;
   margin: 0 auto;
+  margin-bottom: 150px;
 }
 .mina{
   width: 1100;
@@ -333,4 +334,38 @@ nav{
 .freelancer{
   margin-top: 20px;
   font-size: 1.2rem;
+}
+/* *****************fine section 8 ******************* */
+/* ********************section nine ****************** */
+.blog{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.articles{
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.blog_2{
+  border-radius: 5px;
+  width: 380px;
+  display: block;
+  margin-bottom: 20px;
+}
+.small_box{
+  width: 380px;
+}
+.first_p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding-right: 35px;
+  font-size: 1.5rem;
+}
+.second_p{
+  padding-right: 20px;
+  font-size: 1.4rem;
+}
+.date{
+  font-weight: bold;
 }
