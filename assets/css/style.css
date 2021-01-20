@@ -23,6 +23,13 @@
   display: flex;
   justify-content: space-between;
 }
+.flex_1{
+  display: flex;
+}
+.flexend{
+  display: flex;
+  justify-content: flex-end;
+}
 .wrap{
   flex-wrap: wrap;
 }
@@ -42,9 +49,21 @@
   background-image: url(../img/background-pattern-wavify.png);
 }
 nav{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   height: 80px;
   margin-bottom: 20px;
+}
+.mylist{
+  color: #044680;
+  padding-top: 43px;
+  list-style-type: none;
+  margin-left: 70px;
+  font-size: 1.5rem;
+}
+.flexend i{
+  width: 1rem;
+  margin-right: 40px;
+  padding-top: 50px;
 }
 .rightpic{
   position: relative;

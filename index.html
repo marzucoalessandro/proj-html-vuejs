@@ -21,9 +21,22 @@
           <!-- all'interno genereremo tutto tramite vue -->
           <div class="row">
 
-            <div class="col-lg-2">logo</div>
-            <div class="col-lg-7 bd">link</div>
-            <div class="col-lg-3 bd">icone fontawesome</div>
+            <div class="col-lg-2">
+              <img :src="logo" :style="myLogo" alt="logo max coach">
+            </div>
+            <div class="col-lg-7">
+              <ul class="flex_1">
+                <li v-for="item in link" class="mylist"> {{item}} <i class="fas fa-angle-down"></i></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <span class="flexend">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+              </span>
+            </div>
 
           </div>
         </nav>
