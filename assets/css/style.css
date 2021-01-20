@@ -5,7 +5,7 @@
 
 }
 
-/* utility class */
+/* **********************utility class********************* */
 /* .bd{
   border: 1px solid black;
 } */
@@ -21,6 +21,12 @@
 }
 .margin_r_20{
   margin-right: 20px;
+}
+.txt_center{
+  text-align: center;
+}
+.pd_30{
+  padding: 30px;
 }
 /* *****************header class***************** */
 .sfondo{
@@ -215,4 +221,76 @@ nav{
   margin-right: 20px;
   font-size: 1.2rem;
   font-weight: bold;
+}
+/* ************************* fine section 5 *********************** */
+/* ****************************section six ************************** */
+.six{
+  margin-bottom: 150px;
+}
+.button_2{
+  padding: 20px 90px;
+  background-color: #20ac97;
+  color: white;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 5px;
+  margin-bottom: 80px;
+  font-size: 1rem;
+}
+.book{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.alpha{
+  font-size: 4rem;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+}
+.list_1{
+  list-style-type: none;
+  padding-bottom: 40px;
+}
+.list_1 i{
+  margin-right: 20px;
+}
+.list_1 li{
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
+.button_3{
+  padding: 20px 80px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #20ac97;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.card_3{
+  width: 400px;
+  text-align: center;
+}
+.sfondo_2{
+  width: 400px;
+  height: 400px;
+  background-color: #ebe9ed;
+}
+.maxcoach{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.price_2{
+  color: #20ac97;
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* ****************** fine section six* ****************** */
+/* **********************section seven ******************* */
+.seven{
+  margin-bottom: 150px;
+  margin-top: 50px;
 }
