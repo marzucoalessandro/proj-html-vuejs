@@ -16,6 +16,12 @@
   display: flex;
   justify-content: space-between;
 }
+.wrap{
+  flex-wrap: wrap;
+}
+.margin_r_20{
+  margin-right: 20px;
+}
 /* *****************header class***************** */
 .sfondo{
   /* height: 200px; */
@@ -186,8 +192,27 @@ nav{
   font-size: 1.8rem;
 }
 .courses{
-  font-size: 6rem;
+  font-size: 5rem;
   text-transform: capitalize;
 }
 /* *********************fine section four ******************** */
 /* *************************section five *********************** */
+.set_card_2{
+  padding: 20px 30px 80px 50px;
+}
+.price{
+  padding-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.description{
+  font-size: 1.7rem;
+  width: 380px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+.first_span{
+  margin-right: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
