@@ -286,6 +286,24 @@ nav{
   width: 400px;
   text-align: center;
 }
+.icon_2{
+  position: absolute;
+  left: 310px;
+  top: 115px;
+  display: none;
+}
+.icon_2 i{
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  padding-top: 12px;
+  display: block;
+  margin-bottom: 10px;
+}
+.card_3:hover .icon_2{
+  display: block;
+}
 .sfondo_2{
   width: 400px;
   height: 400px;
