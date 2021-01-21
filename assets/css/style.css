@@ -371,6 +371,12 @@ nav{
   margin-bottom: 150px;
   margin-top: 50px;
 }
+.sect_seven img{
+  opacity: 0.3
+}
+.sect_seven img:hover {
+  opacity: 1.0
+}
 /* ********************** fine section seven ****************** */
 /* *********************** section eight ************************ */
 .container_2{
