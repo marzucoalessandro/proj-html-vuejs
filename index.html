@@ -93,6 +93,7 @@
           </div>
         </div>
       </section>
+      <!-- sezione 2 -->
       <section class="two">
         <div class="container">
           <div class="row">
@@ -109,6 +110,7 @@
           </div>
         </div>
       </section>
+      <!-- sezione 3 -->
       <section class="three">
         <div class="container">
           <div class="row">
@@ -125,6 +127,7 @@
           </div>
         </div>
       </section>
+      <!-- sezione 4 -->
       <section class="four">
         <div class="container">
           <div class="row">
@@ -135,68 +138,26 @@
           </div>
         </div>
       </section>
+      <!-- sezione 5 -->
       <section class="five">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 flex wrap">
-              <div class="card_2">
-                <img class="img_card_2" src="./assets/img/motivation-course-06-480x298.jpg" alt="">
+              <div class="card_2" v-for="key in card">
+                <img class="img_card_2" :src="key.img" alt="">
                 <div class="set_card_2">
-                  <p class="price w_marine">$30.00</p>
-                  <p class="description">How to be Successfull: Create A Growth Mindset For Success</p>
-                  <span class="first_span text_grey"><i class="far fa-file-alt margin_r_20"></i>3 Lessons</span>
-                  <span class="first_span text_grey"><i class="far fa-user margin_r_20"></i>50 Students</span>
+                  <p class="price w_marine">{{key.price}}</p>
+                  <p class="description">{{key.description}}</p>
+                  <span class="first_span text_grey"><i class="far fa-file-alt margin_r_20"></i>{{key.lessons}}</span>
+                  <span class="first_span text_grey"><i class="far fa-user margin_r_20"></i>{{key.students}}</span>
                 </div>
               </div>
-              <div class="card_2">
-                <img class="img_card_2" src="./assets/img/motivation-course-05-480x298.jpg" alt="">
-                <div class="set_card_2">
-                  <p class="price w_marine">$30.00</p>
-                  <p class="description">Hot to Build Confidence in Your Abilities</p>
-                  <span class="first_span text_grey"><i class="far fa-file-alt margin_r_20"></i>1 Lessons</span>
-                  <span class="first_span text_grey"><i class="far fa-user margin_r_20"></i>50 Students</span>
-                </div>
-              </div>
-              <div class="card_2">
-                <img class="img_card_2" src="./assets/img/motivation-course-04-480x298.jpg" alt="">
-                <div class="set_card_2">
-                  <p class="price w_marine">$20.00</p>
-                  <p class="description">Productivity Machine - Focus in a Distracted World</p>
-                  <span class="first_span text_grey"><i class="far fa-file-alt margin_r_20"></i>5 Lessons</span>
-                  <span class="first_span text_grey"><i class="far fa-user margin_r_20"></i>50 Students</span>
-                </div>
-              </div>
-              <div class="card_2">
-                <img class="img_card_2" src="./assets/img/motivation-course-03-480x298.jpg" alt="">
-                <div class="set_card_2">
-                  <p class="price w_marine">$20.00</p>
-                  <p class="description">Effective Time Management Mastery - Complete Guide</p>
-                  <span class="first_span text_grey"><i class="far fa-file-alt margin_r_20"></i>18 Lessons</span>
-                  <span class="first_span text_grey"><i class="far fa-user margin_r_20"></i>50 Students</span>
-                </div>
-              </div>
-              <div class="card_2">
-                <img class="img_card_2" src="./assets/img/motivation-course-02-480x298.jpg" alt="">
-                <div class="set_card_2">
-                  <p class="price w_marine">$25.99</p>
-                  <p class="description">Body Language Secrets for Entrepreneurs</p>
-                  <span class="first_span text_grey"><i class="far fa-file-alt margin_r_20"></i>19 Lessons</span>
-                  <span class="first_span text_grey"><i class="far fa-user margin_r_20"></i>50 Students</span>
-                </div>
-              </div>
-              <div class="card_2">
-                <img class="img_card_2" src="./assets/img/motivation-course-01-480x298.jpg" alt="">
-                <div class="set_card_2">
-                  <p class="price w_marine">$19.99</p>
-                  <p class="description">Management Skills: The Science of Leadership</p>
-                  <span class="first_span text_grey"><i class="far fa-file-alt margin_r_20"></i>17 Lessons</span>
-                  <span class="first_span text_grey"><i class="far fa-user margin_r_20"></i>50 Students</span>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
       </section>
+      <!-- sezione 6 -->
       <section class="six">
         <div class="container txt_center">
           <button class="button_2">Wiew all courses<i class="fas fa-arrow-right small_arrow"></i></button>
@@ -241,6 +202,7 @@
           </div>
         </div>
       </section>
+      <!-- sezione 7 -->
       <section class="seven">
         <div class="container flex sect_seven">
           <img class="pd_30" src="./assets/img/client-logo-05-primary.png" alt="">
@@ -251,6 +213,7 @@
           <img src="./assets/img/client-logo-02-primary.png" alt="">
         </div>
       </section>
+      <!-- sezione 8 -->
       <section class="eight">
         <div class="container_2 relative">
           <div class="circle">
@@ -275,6 +238,7 @@
           </div>
         </div>
       </section>
+      <!-- sezione 9 -->
       <section class="nine">
         <div class="container">
           <h4 class="blog">blog updated</h4>
@@ -359,6 +323,7 @@
         </div>
       </div>
     </footer>
+    <!-- / footer -->
   </div>
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   <script src="assets/js/main.js" charset="utf-8"></script>
