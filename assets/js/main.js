@@ -80,6 +80,32 @@ let app = new Vue({
         lessons: "17 Lessons",
         students: "50 Students"
       }
+    ],
+    cardTwo: [
+      {
+        img: "./assets/img/motivation-blog-04-480x325.jpg",
+        date: "may 13,2020",
+        firstP: "How to Stay True to Your Personal Brand",
+        secondP: "When it comes to your business or career, you want..."
+      },
+      {
+        img: "./assets/img/motivation-blog-03-480x325.jpg",
+        date: "may 13,2020",
+        firstP: "5 vital lessons in 5 years of freelancing",
+        secondP: "Being self-employed and working from home, it's easy to get..."
+      },
+      {
+        img: "./assets/img/motivation-blog-02-480x325.jpg",
+        date: "may 13,2020",
+        firstP: "11 super useful tips for small-business owners",
+        secondP: "Being a small business owner poses a ton of challenges. we.."
+      },
+      {
+        img: "./assets/img/motivation-blog-01-480x325.jpg",
+        date: "may 13,2020",
+        firstP: "how to give yourself grace to start again",
+        secondP: "Forgive yourself for bad habits you may have started or..."
+      }
     ]
   }
 });
